@@ -1,32 +1,18 @@
 <template>
-  <header>
-    <nav>
-      <img src="/logo.png" alt="Logo Gandiwa Konstruksi" class="logo" />
-      <div class="page-link">
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/services">Services</RouterLink>
-        <RouterLink to="/projects">Projects</RouterLink>
-        <RouterLink to="/contact">Contact Us</RouterLink>
-      </div>
-      <RouterLink to="/login">Login</RouterLink>
-    </nav>
-  </header>
-
   <RouterView />
 </template>
 
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 </script>
 
 <style scoped>
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.page-link a{
+.page-link a {
   margin: 0 10px 0 10px;
 }
 
