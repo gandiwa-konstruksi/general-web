@@ -10,5 +10,5 @@
 import Navigation from '../../components/public/Navigation.vue'
 </script>
 
-<style scope>
+<style scoped>
 </style>
